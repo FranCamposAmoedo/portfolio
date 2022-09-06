@@ -12,13 +12,12 @@
 
 #home .container {
     position: absolute;
-    width: 45%;
-    top: 20%;
-    left: 10%;
+    top: 30%;
+    padding-left: 10rem;
 }
 
 h1 {
-    width: 100%;
+    width: 80%;
     font-size: 5rem;
     font-weight: 400;
 }
@@ -37,7 +36,7 @@ h1 span {
 }
 
 .profile {
-    width: 70%;
+    width: 72%;
     position: absolute;
     right: 0;
     bottom: 0;
