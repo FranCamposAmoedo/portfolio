@@ -3,7 +3,7 @@ import "./Home.css";
 const Home = () => {
     return (
         <section id="home">
-            <img className="bgHome" src="../images/background/BgHome.png" alt="" />
+            <img className="bg-section" src="../images/background/BgHome.png" alt="" />
             <div className="container">
                 <h1>
                     Hola!, soy <span>Francisco Campos Amoedo</span>

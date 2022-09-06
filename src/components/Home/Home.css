@@ -3,10 +3,10 @@
     height: 100vh;
 }
 
-.bgHome {
+.bg-section {
     width: 100%;
     height: 100vh;
-    position: relative;
+    position: absolute;
     z-index: -1;
 }
 

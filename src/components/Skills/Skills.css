@@ -1,0 +1,32 @@
+#skills {
+    position: relative;
+    min-height: 100vh;
+}
+
+#skills .container {
+    color: #555555;
+}
+
+.container-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-skills {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+.icons-skills img {
+    width: 20%;
+    margin: 2rem;
+}
+
+.picture-skills {
+    width: 50%;
+}
