@@ -8,9 +8,12 @@ const Home = () => {
                 <h1>
                     Hola!, soy <span>Francisco Campos Amoedo</span>
                 </h1>
-                <button>Trabajemos juntos ----`{">"}`</button>
+                <button>
+                    <span>Trabajemos juntos</span>
+                    <img className="arrow" src="../images/icons/Flecha.png" alt="" />
+                </button>
             </div>
-            <img className="profile" src="../images/pictures/Profile.png" alt="" />
+            <img className="profile" src="../images/pictures/Profile2.png" alt="" />
         </section>
     );
 };
