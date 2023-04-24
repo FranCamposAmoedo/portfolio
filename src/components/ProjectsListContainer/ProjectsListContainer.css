@@ -1,0 +1,12 @@
+#projects {
+    background-color: #E6E6E6;
+}
+
+#projects .container {
+    color: #555555;
+}
+
+.container-projects {
+    display: flex;
+    flex-direction: column;
+}

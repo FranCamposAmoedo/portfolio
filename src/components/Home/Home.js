@@ -13,7 +13,7 @@ const Home = () => {
                     <img className="arrow" src="../images/icons/Flecha.png" alt="" />
                 </button>
             </div>
-            <img className="profile" src="../images/pictures/Profile2.png" alt="" />
+          {/*   <img className="profile" src="../images/pictures/Profile2.png" alt="" /> */}
         </section>
     );
 };
