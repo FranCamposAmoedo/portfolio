@@ -3,7 +3,7 @@ import "./AboutMe.css";
 const AboutMe = () => {
     return (
         <section id="about">
-            <img className="bg-section" src="../images/background/BgAbout.png" alt="" />
+            {/* <img className="bg-section" src="../images/background/BgAbout.png" alt="" /> */}
             <div className="container">
                 <h2>Acerca de mi</h2>
                 <hr className="title-line"/>

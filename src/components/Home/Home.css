@@ -1,18 +1,26 @@
-.bg-section {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    z-index: -1;
+body {
+    background-image: url(../../../public/images/background/Recurso\ 4.png);
+    background-size: cover;
+    /* height: 100vh; */
+    /* position: absolute; */
+    /* background-attachment: fixed; */
+    background-position: top left;
+    /* z-index: 100; */
+}
+
+#home {
+    display: flex;
 }
 
 #home .container {
-    position: absolute;
-    top: 30%;
-    padding-left: 10rem;
+    /* width: 45%; */
+    position: relative;
+    top: 180px;
+    /* padding-left: 10rem; */
 }
 
 h1 {
-    width: 80%;
+    /* width: 80%; */
     font-size: 5rem;
     font-weight: 400;
 }
@@ -38,9 +46,10 @@ h1 span {
 .profile {
     max-width: 45%;
     max-height: 700px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    top: 200px;
+    right: 0px;
+    /* bottom: 0px; */
 }
 
 .arrow {

@@ -9,17 +9,18 @@
 
 .container-skills {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
 
 .icons-skills {
-    width: 50%;
-    height: 80%;
+    width: 550px;
+    max-height: 70%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 4rem;
+    /* padding: 4rem; */
 }
 
 .icons-skills img {
@@ -30,3 +31,4 @@
 .picture-skills {
     width: 50%;
 }
+
