@@ -1,10 +1,24 @@
 import "./Project.css";
 import Btn from "../Btn/Btn";
+import React, { useState } from "react";
 
-const Project = ({ img, title }) => {
+const Project = ({ preImg, img, title, web, gh }) => {
+    const [imgActual, setImgActual] = useState(preImg);
+
+    const cambiarRuta = () => {
+        setImgActual(imgActual === preImg ? img : preImg);
+    };
+
     return (
         <div className="item-project container">
-            <img src={img} alt={title} />
+            <a href={web} target="_blank" rel="noreferrer">
+                <img
+                    src={imgActual}
+                    onMouseEnter={cambiarRuta}
+                    onMouseLeave={cambiarRuta}
+                    alt={title}
+                />
+            </a>
             <div className="paragraph-container container">
                 <h3>{title}</h3>
                 <p>
@@ -15,8 +29,8 @@ const Project = ({ img, title }) => {
                     laoreet lectus.
                 </p>
                 <div className="project-btn">
-                    <Btn name="Página" />
-                    <Btn name="Repositorio" />
+                    <Btn name="Página" path={web} />
+                    <Btn name="Repositorio" path={gh} />
                 </div>
             </div>
         </div>

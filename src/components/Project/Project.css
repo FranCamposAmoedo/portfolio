@@ -5,8 +5,14 @@
     margin: 2rem 0;
 }
 
-.item-project img {
+.item-project a {
+    display: inline-block;
     max-width: 60%;
+}
+
+.item-project img {
+    display: inline-block;
+    max-width: 100%;
     border-radius: 20px;
     box-shadow: 10px 10px 0 rgba(255, 255, 255, 1);
 }
@@ -23,6 +29,7 @@
 
 .paragraph-container h3 {
     text-align: start;
+    font-weight: bold;
 }
 
 .project-btn {

@@ -1,9 +1,13 @@
-import "./Btn.css"
+import "./Btn.css";
 
-const Btn = (props) => {
+const Btn = ({ name, path }) => {
     return (
-        <button type="button" className="btn btn-light my-btn">{props.name}</button>
-    )
-}
+        <a href={path} target="_blank" rel="noreferrer">
+            <button type="button" className="btn btn-light my-btn">
+                {name}
+            </button>
+        </a>
+    );
+};
 
 export default Btn;

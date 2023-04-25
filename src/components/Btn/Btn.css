@@ -1,6 +1,12 @@
 .my-btn {
-    font-size: 2rem;
-    padding: 1.5rem;
-    width: 300px;
+    font-size: 1.6rem;
+    padding: 1rem;
+    width: 250px;
     border-radius: 20px;
+}
+
+.my-btn:hover {
+    background-color: #65f2d5;
+    border-color: #65f2d5;
+    color: #000;
 }
