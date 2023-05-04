@@ -1,7 +1,9 @@
 #about {
-    /* position: relative; */
-    /* background-size: cover; */
-    /* min-height: 100vh; */
+    background-image: url(../../../public/images/background/BgAbout.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 #about .container {

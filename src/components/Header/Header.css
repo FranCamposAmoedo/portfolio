@@ -1,4 +1,8 @@
 .header {
-    /* min-height: 100vh; */
-    /* background-image: url(../../../public/images/background/Recurso\ 4.png); */
+    background-image: url(../../../public/images/background/BgHome.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
 }

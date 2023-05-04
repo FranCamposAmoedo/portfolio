@@ -8,8 +8,17 @@ body {
     /* z-index: 100; */
 }
 
+.bg-section {
+    z-index: -2;
+    position: relative;
+}
+
 #home {
     display: flex;
+    /* background-image: url(../../../public/images/background/BgHome.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh; */
 }
 
 #home .container {
