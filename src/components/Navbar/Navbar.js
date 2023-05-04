@@ -20,7 +20,7 @@ const Navbar = () => {
       }, []);
 
     return (
-        <div className="container-xxl">
+        <div className="container-fluid">
             <nav>
                 <ul className={`nav-links ${clicked ? "active" : ""}`}>
                     <li>
