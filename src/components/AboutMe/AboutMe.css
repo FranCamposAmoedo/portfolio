@@ -41,14 +41,19 @@ h2 {
 }
 
 .container-about p {
-    width: 45%;
+    width: 50%;
     margin: 0;
     margin-left: 2rem;
     padding: 4rem 0;
-    font-size: 1.7rem;
-    line-height: 2.8rem;
+    font-size: 1.5rem;
+    line-height: 2.7rem;
     /* max-height: 100vh;
     overflow: auto; */
+}
+
+.container-about p i a {
+    text-decoration: none;
+    color: #555555;
 }
 
 @media screen and (max-width: 1400px) {

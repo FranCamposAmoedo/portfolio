@@ -32,6 +32,11 @@ h1 span {
     margin: 1.8rem 0;
 }
 
+#home button a {
+    text-decoration: none;
+    color: black;
+}
+
 #home button span {
     margin: 0 1rem;
 }

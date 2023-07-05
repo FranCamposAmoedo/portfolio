@@ -8,8 +8,10 @@ const Home = () => {
                     Hola!, soy <span>Francisco Campos Amoedo</span>
                 </h1>
                 <button>
-                    <span>Trabajemos juntos</span>
-                    <img className="arrow" src="../images/icons/Flecha.png" alt="" />
+                    <a href="#contact">
+                        <span>Trabajemos juntos</span>
+                        <img className="arrow" src="../images/icons/Flecha.png" alt="" />
+                    </a>
                 </button>
             </div>
             <img className="profile" src="../images/pictures/Profile2.png" alt="" />

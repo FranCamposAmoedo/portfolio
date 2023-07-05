@@ -6,16 +6,20 @@ const AboutMe = () => {
             {/* <img className="bg-section" src="../images/background/BgAbout.png" alt="" /> */}
             <div className="container">
                 <h2>Acerca de mi</h2>
-                <hr className="title-line"/>
+                <hr className="title-line" />
                 <div className="container-about">
                     <img src="../images/pictures/DeveloperPopUps.png" alt="" />
                     <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                        nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-                        wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                        lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                        dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
-                        dolore eu feugiat nulla facilisis at vero eros et accum.
+                        ¡Hola! Soy un programador <b>Front-End</b> especializado en <b>React JS</b>, y estoy
+                        emocionado por compartir mi experiencia contigo. Mi pasión por la
+                        programación comenzó hace años y desde entonces he estado dedicado a
+                        aprender y desarrollar mis habilidades en el campo de la tecnología. Estoy
+                        constantemente actualizando mis conocimientos y aprendiendo nuevas
+                        tecnologías para mantenerme al día con las últimas tendencias en el mundo
+                        del desarrollo web. Ansioso por trabajar en proyectos emocionantes y
+                        colaborar con otros profesionales de la industria para seguir creciendo en
+                        el campo de la tecnología. Si estás buscando a alguien apasionado,
+                        comprometido y con ganas de aprender, <i><a href="#contact">¡no dudes en contactarme!</a></i>
                     </p>
                 </div>
             </div>
